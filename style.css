@@ -68,53 +68,53 @@ button:hover#windows {
 }
 
 #lock {
-  background-image: image(url("../../.colors/icons/lock.svg"));
+  background-image: image(url("../../.colors/generated/icons/lock.svg"));
   border-radius: 20px 0px 0px 20px;
   margin: 350px 0px 350px 200px;
 }
 
 #lock:focus {
-  background-image: image(url("../../.colors/icons/lock_contrast.svg"));
+  background-image: image(url("../../.colors/generated/icons/lock_contrast.svg"));
 }
 
 #logout {
-  background-image: image(url("../../.colors/icons/logout.svg"));
+  background-image: image(url("../../.colors/generated/icons/logout.svg"));
 }
 
 #logout:focus {
-  background-image: image(url("../../.colors/icons/logout_contrast.svg"));
+  background-image: image(url("../../.colors/generated/icons/logout_contrast.svg"));
 }
 
 #suspend {
-  background-image: image(url("../../.colors/icons/sleep.svg"));
+  background-image: image(url("../../.colors/generated/icons/sleep.svg"));
 }
 
 #suspend:focus {
-  background-image: image(url("../../.colors/icons/sleep_contrast.svg"));
+  background-image: image(url("../../.colors/generated/icons/sleep_contrast.svg"));
 }
 
 #shutdown {
-  background-image: image(url("../../.colors/icons/poweroff.svg"));
+  background-image: image(url("../../.colors/generated/icons/poweroff.svg"));
 }
 
 #shutdown:focus {
-  background-image: image(url("../../.colors/icons/poweroff_contrast.svg"));
+  background-image: image(url("../../.colors/generated/icons/poweroff_contrast.svg"));
 }
 
 #reboot {
-  background-image: image(url("../../.colors/icons/restart.svg"));
+  background-image: image(url("../../.colors/generated/icons/restart.svg"));
 }
 
 #reboot:focus {
-  background-image: image(url("../../.colors/icons/restart_contrast.svg"));
+  background-image: image(url("../../.colors/generated/icons/restart_contrast.svg"));
 }
 
 #windows {
-  background-image: image(url("../../.colors/icons/windows.svg"));
+  background-image: image(url("../../.colors/generated/icons/windows.svg"));
   border-radius: 0px 20px 20px 0px;
   margin: 350px 200px 350px 0px;
 }
 
 #windows:focus {
-  background-image: image(url("../../.colors/icons/windows_contrast.svg"));
+  background-image: image(url("../../.colors/generated/icons/windows_contrast.svg"));
 }
