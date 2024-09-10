@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "hyprlock",
+    "action" : "sleep 0.5 && hyprlock",
     "text" : "Lock",
     "keybind" : "l"
 }
@@ -24,7 +24,7 @@
 }
 {
     "label" : "suspend",
-    "action" : "systemctl suspend",
+    "action" : "sleep 0.5 && systemctl suspend",
     "text" : "Suspend",
     "keybind" : "u"
 }
