@@ -13,7 +13,7 @@ button {
   outline-style: none;
   border: none;
   border-width: 0px;
-  color: @onSurface;
+  color: @on_surface;
   background-color: @surface;
   background-repeat: no-repeat;
   background-position: center;
@@ -30,12 +30,12 @@ button:focus {
 
 button:focus {
   background-color: @primary;
-  color: @onPrimary;
+  color: @on_primary;
 }
 
 button:hover {
-  background-color: @tertiaryContainer;
-  color: @onTertiary;
+  background-color: @tertiary_container;
+  color: @on_tertiary;
   background-size: 30%;
   border-radius: 10px;
   transition: all 0.3s cubic-bezier(0.55, 0, 0.28, 1.682);
