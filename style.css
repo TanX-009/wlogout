@@ -35,7 +35,7 @@ button:focus {
 
 button:hover {
   background-color: @tertiary_container;
-  color: @on_tertiary;
+  color: @tertiary;
   background-size: 30%;
   border-radius: 10px;
   transition: all 0.3s cubic-bezier(0.55, 0, 0.28, 1.682);
@@ -74,7 +74,9 @@ button:hover#windows {
 }
 
 #lock:focus {
-  background-image: image(url("../../.colors/generated/icons/lock_contrast.svg"));
+  background-image: image(
+    url("../../.colors/generated/icons/lock_contrast.svg")
+  );
 }
 
 #logout {
@@ -82,7 +84,9 @@ button:hover#windows {
 }
 
 #logout:focus {
-  background-image: image(url("../../.colors/generated/icons/logout_contrast.svg"));
+  background-image: image(
+    url("../../.colors/generated/icons/logout_contrast.svg")
+  );
 }
 
 #suspend {
@@ -90,7 +94,9 @@ button:hover#windows {
 }
 
 #suspend:focus {
-  background-image: image(url("../../.colors/generated/icons/sleep_contrast.svg"));
+  background-image: image(
+    url("../../.colors/generated/icons/sleep_contrast.svg")
+  );
 }
 
 #shutdown {
@@ -98,7 +104,9 @@ button:hover#windows {
 }
 
 #shutdown:focus {
-  background-image: image(url("../../.colors/generated/icons/poweroff_contrast.svg"));
+  background-image: image(
+    url("../../.colors/generated/icons/poweroff_contrast.svg")
+  );
 }
 
 #reboot {
@@ -106,7 +114,9 @@ button:hover#windows {
 }
 
 #reboot:focus {
-  background-image: image(url("../../.colors/generated/icons/restart_contrast.svg"));
+  background-image: image(
+    url("../../.colors/generated/icons/restart_contrast.svg")
+  );
 }
 
 #windows {
@@ -116,5 +126,7 @@ button:hover#windows {
 }
 
 #windows:focus {
-  background-image: image(url("../../.colors/generated/icons/windows_contrast.svg"));
+  background-image: image(
+    url("../../.colors/generated/icons/windows_contrast.svg")
+  );
 }
