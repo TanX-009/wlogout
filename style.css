@@ -17,14 +17,13 @@ button {
   background-color: @surface;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 20%;
+  background-size: 60%;
   border-radius: 0px;
   box-shadow: none;
   text-shadow: none;
 }
 
 button:focus {
-  background-size: 25%;
   background-color: @primary;
 }
 
@@ -36,46 +35,35 @@ button:focus {
 button:hover {
   background-color: @tertiary_container;
   color: @tertiary;
-  background-size: 30%;
-  border-radius: 10px;
   transition: all 0.3s cubic-bezier(0.55, 0, 0.28, 1.682);
-}
-
-button:hover#lock {
-  border-radius: 10px;
-  margin: 325px 0px 325px 200px;
-}
-
-button:hover#logout,
-button:hover#suspend,
-button:hover#shutdown,
-button:hover#reboot {
-  border-radius: 10px;
-  margin: 325px 0px 325px 0px;
-}
-
-button:hover#windows {
-  border-radius: 10px;
-  margin: 325px 200px 325px 0px;
 }
 
 #logout,
 #suspend,
 #shutdown,
 #reboot {
-  border-radius: 0px 0px 0px 0px;
-  margin: 350px 0px 350px 0px;
+  margin: 500px 0px 500px 0px;
 }
 
 #lock {
   background-image: image(url("../../.colors/generated/icons/lock.svg"));
-  border-radius: 20px 0px 0px 20px;
-  margin: 350px 0px 350px 200px;
+  margin: 500px 0px 500px 750px;
 }
 
 #lock:focus {
   background-image: image(
     url("../../.colors/generated/icons/lock_contrast.svg")
+  );
+}
+
+#windows {
+  background-image: image(url("../../.colors/generated/icons/windows.svg"));
+  margin: 500px 750px 500px 0px;
+}
+
+#windows:focus {
+  background-image: image(
+    url("../../.colors/generated/icons/windows_contrast.svg")
   );
 }
 
@@ -116,17 +104,5 @@ button:hover#windows {
 #reboot:focus {
   background-image: image(
     url("../../.colors/generated/icons/restart_contrast.svg")
-  );
-}
-
-#windows {
-  background-image: image(url("../../.colors/generated/icons/windows.svg"));
-  border-radius: 0px 20px 20px 0px;
-  margin: 350px 200px 350px 0px;
-}
-
-#windows:focus {
-  background-image: image(
-    url("../../.colors/generated/icons/windows_contrast.svg")
   );
 }
